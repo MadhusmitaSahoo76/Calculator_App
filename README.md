@@ -1,4 +1,4 @@
-# 💎 Neon Glass Calculator
+# 💎 Calculator App
 
 A beautifully designed, glassmorphism-inspired calculator with glowing neon effects.  
 Built with **HTML, CSS, and JavaScript**, this app handles both **basic arithmetic** and a few **scientific operations** — with a sleek, modern interface.
