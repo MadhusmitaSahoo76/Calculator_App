@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928DAB);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+}
+
+.calculator {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 30px;
+  width: 340px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 30px;
+}
+
+#display {
+  width: 90%;
+  height: 80px;
+  font-size: 32px;
+  text-align: right;
+  margin-bottom: 25px;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.15);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  height: 65px;
+  font-size: 22px;
+  border: none;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #0ff;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 20px #0ff, 0 0 30px #0ff;
+}
+
+.clear {
+  background: #f44336;
+  box-shadow: 0 0 15px #f44336;
+}
+
+.clear:hover {
+  box-shadow: 0 0 25px #f44336, 0 0 35px #f44336;
+}
+
+.equal {
+  background: #2196F3;
+  box-shadow: 0 0 15px #2196F3;
+}
+
+.equal:hover {
+  box-shadow: 0 0 25px #2196F3, 0 0 35px #2196F3;
+}
+
+.history-btn {
+  background: #9c27b0;
+  box-shadow: 0 0 12px #9c27b0;
+}
+
+.history-btn:hover {
+  box-shadow: 0 0 20px #9c27b0, 0 0 30px #9c27b0;
+}
+
+.history-panel {
+  display: none;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 20px;
+  width: 260px;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.history-panel h3 {
+  margin-top: 0;
+}
+
+.history-panel ul {
+  list-style: none;
+  padding-left: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.history-panel li {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}

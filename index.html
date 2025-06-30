@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Glass Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+  <input type="text" id="display" readonly>
+
+  <div class="buttons">
+    <button class="btn clear" onclick="clearDisplay()">C</button>
+    <button class="btn" onclick="appendValue('/')">÷</button>
+    <button class="btn" onclick="appendValue('*')">×</button>
+    <button class="btn" onclick="appendValue('-')">−</button>
+
+    <button class="btn" onclick="appendValue('7')">7</button>
+    <button class="btn" onclick="appendValue('8')">8</button>
+    <button class="btn" onclick="appendValue('9')">9</button>
+    <button class="btn" onclick="appendValue('+')">+</button>
+
+    <button class="btn" onclick="appendValue('4')">4</button>
+    <button class="btn" onclick="appendValue('5')">5</button>
+    <button class="btn" onclick="appendValue('6')">6</button>
+    <button class="btn equal" onclick="calculate()">=</button>
+
+    <button class="btn" onclick="appendValue('1')">1</button>
+    <button class="btn" onclick="appendValue('2')">2</button>
+    <button class="btn" onclick="appendValue('3')">3</button>
+    <button class="btn" onclick="appendValue('0')">0</button>
+
+    <button class="btn" onclick="appendValue('.')">.</button>
+    <button class="btn" onclick="calculatePercentage()">%</button>
+    <button class="btn" onclick="calculateSquareRoot()">√</button>
+    <button class="btn" onclick="calculateSquare()">x²</button>
+    <button class="btn" onclick="insertPi()">π</button>
+    <button class="btn" onclick="calculateReciprocal()">1/x</button>
+    <button class="btn history-btn" onclick="toggleHistory()">🕑</button>
+  </div>
+</div>
+
+<div class="history-panel" id="history-panel">
+  <h3>History</h3>
+  <ul id="history-list"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
