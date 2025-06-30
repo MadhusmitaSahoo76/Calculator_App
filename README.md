@@ -23,8 +23,6 @@ Built with **HTML, CSS, and JavaScript**, this app handles both **basic arithmet
 
 ## 📸 Live Preview
 
-![Screenshot 2025-06-30 163045](https://github.com/user-attachments/assets/9715dceb-3e84-4ed6-8c95-323e60958757)
-
 ![Screenshot 2025-06-30 163756](https://github.com/user-attachments/assets/eaa76dd9-d7ac-491b-a761-59bf0685ddce)
 
 ![Screenshot 2025-06-30 163820](https://github.com/user-attachments/assets/9a79126f-1456-4cda-bec8-921700875abd)
